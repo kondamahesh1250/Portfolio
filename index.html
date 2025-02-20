@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Konda Mahesh</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="head-container">
+        <div class="logo">
+            <span><i>km().</i></span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Hi, I'm Konda Mahesh</h1>
+        <p>Aspiring Frontend Developer | Passionate about UI/UX</p>
+
+        <svg class="hero-curve" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#8e44ad" d="M0,300 Q400,150 500,0 L500,300 Z"></path>
+          </svg>
+          
+
+    </section>
+    <hr>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="img-container">
+            <img src="./image.png" alt="" width="200px">
+        </div>
+        <p>I am a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and React. I enjoy
+            crafting beautiful, responsive, and user-friendly websites that provide seamless experiences across devices.
+            With a keen eye for design and performance, I focus on building clean, scalable, and efficient web
+            applications. Whether it's creating modern UI/UX interfaces or optimizing web performance, I thrive on
+            bringing ideas to life through code.
+            I am always eager to learn, adapt to new technologies and industry trends, and collaborate with teams to
+            develop innovative digital solutions.</p>
+            <div class="link-container">
+                <span><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/kondamahesh1122/" target="_blank"> Linkedin</a></span>
+                <span><i class="fa-brands fa-github"></i><a href="https://github.com/kondamahesh1250" target="_blank"> Github</a></span>
+                <span><i class="fa-solid fa-envelope"></i><a href="mailto:konda.mahesh1250@gmail.com"> Email</a></span>
+                <span><i class="fa-solid fa-file"></i><a href="https://drive.google.com/file/d/1On64yix2aAc3ZJNZWTNbiti9TgmBlcZ-/view?usp=sharing" target="_blank"> Resume</a></span>
+            </div>
+    </section>
+    <hr>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2><br>
+        <ul>
+            <li><i class="fa-brands fa-html5"></i> HTML</li>
+            <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+            <li><i class="fa-brands fa-react"></i> React</li>
+            <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+            <li><i class="fa-brands fa-node-js"></i> Node.js</li>
+            <li><i class="fa-brands fa-database"></i> MySQL</li>
+            <li><i class="fa-brands fa-database"></i> MongoDB</li>
+        </ul>
+    </section>
+    <hr>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2><br><br>
+        <div class="project-grid">
+            <div class="project">
+                <h2>Tinker</h2>
+                <p>The TINKER HTML5 template is a modern, responsive website layout. It features a mobile-friendly
+                    navigation menu, interactive image galleries,
+                    and service descriptions.</p>
+                <a href="https://kondamahesh1250.github.io/CSS-Project/" target="_blank">Click Here</a>
+            </div>
+            <div class="project">
+                <h2>Real-time Train Information Web App</h2>
+                <p>Designed a seamless, user-friendly interface using HTML, CSS, and JavaScript for optimal performance
+                    across devices.</p>
+                <a href="https://kondamahesh1250.github.io/JavaScript-Project/" target="_blank">Click Here</a>
+            </div>
+            <div class="project">
+                <h2>Todo App with Node.js</h2>
+                <p>Developed a dynamic To-Do List application using Node.js, enabling users to add, update, and delete
+                    tasks efficiently. Implemented a responsive UI with real-time task management for a seamless user
+                    experience.</p>
+                <a href="https://github.com/KondaMahesh/Tinker" target="_blank">Click Here</a>
+            </div>
+            <div class="project">
+                <h2>Hotel Booking System App</h2>
+                <p>Developed a hotel booking system that allows users to search, book, and manage hotel reservations
+                    seamlessly. Integrated a user-friendly interface with real-time availability and secure payment
+                    processing for a smooth booking experience.</p>
+                <a href="https://github.com/KondaMahesh/Tinker" target="_blank">Click Here</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="formdata" >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Konda Mahesh</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
