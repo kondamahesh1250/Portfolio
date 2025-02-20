@@ -8,7 +8,7 @@ form.addEventListener("submit", function (event) {
     const formData = new FormData(form);
     const formObject = Object.fromEntries(formData.entries());
 
-    fetch('http://localhost:3005/submit', {
+    fetch('https://portfolio-ruz2.onrender.com/submit', {
         method: 'POST',
         body: JSON.stringify(formObject),
         headers: {
