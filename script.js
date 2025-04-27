@@ -3,6 +3,7 @@ const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 const form = document.getElementById("formdata");
 
+
 form.addEventListener("submit", function (event) {
     event.preventDefault();
     const formData = new FormData(form);
